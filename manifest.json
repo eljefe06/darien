@@ -1,0 +1,12 @@
+{
+  "name": "Bautismo de Darien",
+  "short_name": "Darien",
+  "description": "Confirma tu asistencia al bautismo de Darien · 6 de junio 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F4EFE3",
+  "theme_color": "#A8C8E8",
+  "icons": [
+    { "src": "/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
