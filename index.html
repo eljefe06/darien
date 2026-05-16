@@ -525,6 +525,13 @@
   </footer>
 
   <script defer>
+    // fuerza reproducción del video en browsers mobile que bloquean autoplay
+    const bgVid = document.querySelector('.bg-video');
+    if (bgVid) {
+      bgVid.play().catch(() => {});
+      document.addEventListener('touchstart', () => bgVid.play().catch(() => {}), { once: true });
+    }
+
     const WEBHOOK = 'https://n8n.myrock.com.mx/webhook/bautismo-darien';
     const CIERRE  = new Date('2026-06-03T23:59:59-07:00');
 
