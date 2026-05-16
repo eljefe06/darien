@@ -90,6 +90,27 @@
       margin-top: 1rem;
     }
 
+    .btn-hero-confirm {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 2rem;
+      background: var(--navy);
+      color: var(--white);
+      border-radius: 99px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      letter-spacing: 0.06em;
+      text-decoration: none;
+      min-height: 48px;
+      line-height: 1;
+      display: inline-flex;
+      align-items: center;
+      transition: background 0.2s, transform 0.1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .btn-hero-confirm:hover  { background: #1e2b52; }
+    .btn-hero-confirm:active { transform: scale(0.97); }
+
     /* ── DIVIDER ──────────────────────────────────────── */
     .divider {
       display: flex;
@@ -367,6 +388,7 @@
     <h1 class="hero-name">Darien</h1>
     <p class="hero-bautismo">Mi Bautismo</p>
     <p class="hero-script">Acompáñanos a celebrar</p>
+    <a href="#state-form" class="btn-hero-confirm">Confirmar asistencia</a>
   </header>
 
   <div class="divider" aria-hidden="true">
@@ -480,7 +502,7 @@
   </section>
 
   <footer>
-    <p>Con amor &middot; Familia Yanagui &middot; 2026</p>
+    <p>Con amor &middot; Familia Yanagui Rubiera &middot; 2026</p>
   </footer>
 
   <script defer>
